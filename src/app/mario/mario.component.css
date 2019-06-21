@@ -1,0 +1,23 @@
+.grid-container{
+  display: grid;
+  grid-column-gap: 1px;
+grid-template-columns: auto auto auto;
+padding: 1px;
+
+}
+
+
+.grid-item{
+  background-color: #6c757d;
+  text-align: center;
+  border: 1px solid white;
+  height: 80px;
+  width: 70px
+}
+
+.mario{
+  background-color: red;
+  text-align: center;
+  height: 80px;
+  width: 70px;
+}

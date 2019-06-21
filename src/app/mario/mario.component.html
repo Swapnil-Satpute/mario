@@ -1,0 +1,10 @@
+<h3>  mario Postion {{x}}{{y}} <br>Mushroom Ea= {{Score}}</h3>
+
+<div *ngFor='let i of gridArr; let i1=index;' class="grid-container">
+        <span *ngFor='let j of i;'  class="grid-item">
+      <span *ngIf="j==x && i1==y" style= "background-color:red;">
+      Mario
+</span>
+</span>
+</div>
+
